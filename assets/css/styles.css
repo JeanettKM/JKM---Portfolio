@@ -354,7 +354,7 @@ h3 {
   width: 100%;
   background: var(--color-white);
   box-shadow: 1px 8px 10px 2px var(--first-shadow-color);
-  border-radius: 20px;
+  border-radius: 5px;
 }
 .about-info p {
   text-align: center;
@@ -411,7 +411,7 @@ h3 {
   width: 30%;
   height: 250px;
   background: var(--color-white);
-  border-radius: 20px;
+  border-radius: 5px;
   box-shadow: 1px 8px 10px 2px var(--first-shadow-color);
   overflow: hidden;
 }
@@ -459,7 +459,7 @@ h3 {
   width: 100%;
   height: 315px;
   background: var(--third-color);
-  border-radius: 10px;
+  border-radius: 5px;
   box-shadow: 1px 8px 10px 2px var(--first-shadow-color);
   overflow: hidden;
 }
