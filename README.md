@@ -1,5 +1,9 @@
 # Jeanett K. Portfolio
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0c2f7d41-20b8-4278-b2e1-51b879798944/deploy-status)](https://app.netlify.com/sites/melsom-dev/deploys)
+
+https://melsom-dev.netlify.app/
+
 Welcome to my personal frontend development portfolio! This repository contains the code for my portfolio website, where I showcase my skills, projects, and achievements in web development.
 
 ## Features
