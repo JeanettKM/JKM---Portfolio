@@ -1,28 +1,32 @@
-/* ----- POPPINS FONT Link ----- */
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+/* ----- FONT Link ----- */
+
+@import url("https://fonts.googleapis.com/css2?family=Slackside+One&family=Sofia+Sans+Condensed:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap");
 
 /* ----- VARIABLES ----- */
 :root {
-  --body-color: #f7dad9;
+  --body-color: #fff3f4;
   --color-white: #ffffff;
 
-  --text-color-second: #965a5f;
-  --text-color-third: #202a25;
+  --text-color-second: #9a6a70;
+  --text-color-third: #574144;
 
-  --first-color: #965a5f;
-  --first-color-hover: #cdaba4;
+  --first-color: #9a6a70;
+  --first-color-hover: #d19ea4;
+  --icon-background: #fff5f6;
 
-  --second-color: #cdaba4;
-  --third-color: #965a5f;
+  --second-color: #d19ea4;
+  --third-color: #639b94;
+  --fourth-color: #48817a;
   --first-shadow-color: rgba(0, 0, 0, 0.1);
 }
 
 /* ----- BASE ----- */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: "Sofia Sans Semi Condensed", sans-serif;
 }
 
 /* ----- SMOOTH SCROLL ----- */
@@ -49,19 +53,24 @@ html {
 /* ---##-- REUSABLE CSS --##--- */
 
 a {
-  color: #ffffff;
+  color: var(--color-white);
   text-decoration: none;
 }
 
 /* ----- GLOBAL BUTTON DESIGN ----- */
 .btn {
   font-weight: 500;
-  padding: 12px 20px;
-  background: #83ac93;
+  padding: 10px 20px;
+  background: var(--text-color-third);
   border: none;
-  border-radius: 10px;
+  border-radius: 5px;
   cursor: pointer;
   transition: 0.4s;
+}
+
+a > .btn {
+  background-color: #965a5f;
+  color: var(--color-white);
 }
 .btn > i {
   margin-left: 10px;
@@ -74,11 +83,27 @@ a {
 /* ----- GLOBAL ICONS DESIGN ----- */
 i {
   font-size: 16px;
+  color: var(--color-white);
+}
+
+.icon i {
+  color: var(--first-color);
+}
+
+i:hover {
+  color: var(--third-color);
 }
 
 /* ------- BASE -------- */
 body {
-  background: var(--body-color);
+  background-image: linear-gradient(
+    to bottom,
+    #fff3f4,
+    #e6cfd1,
+    #ccacb0,
+    #b38b8f,
+    #9a6a70
+  );
 }
 .container {
   width: 100%;
@@ -94,7 +119,7 @@ nav {
   height: 90px;
   line-height: 90px;
   background: var(--body-color);
-  padding-inline: 9vw;
+  padding-inline: 2vw;
   transition: 0.3s;
   z-index: 100;
 }
@@ -134,6 +159,7 @@ nav {
 .nav-menu-btn i {
   font-size: 28px;
   cursor: pointer;
+  color: var(--first-color);
 }
 .active-link {
   position: relative;
@@ -186,15 +212,18 @@ nav {
 .featured-name {
   font-size: 50px;
   font-weight: 600;
-  color: var(--text-color-second);
+  color: var(--text-color-third);
   margin-block: 20px;
 }
 .typedText {
   text-transform: capitalize;
-  color: var(--text-color-third);
+  color: var(--text-color-second);
+  font-family: "Slackside One", cursive;
+  font-size: 60px;
 }
+
 .featured-text-info {
-  font-size: 15px;
+  font-size: 17px;
   margin-bottom: 30px;
   color: var(--text-color-third);
 }
@@ -223,6 +252,8 @@ nav {
   border-radius: 50%;
   box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
   cursor: pointer;
+  color: var(--first-color);
+  background-color: var(--icon-background);
 }
 .icon:hover {
   color: var(--first-color);
@@ -274,6 +305,7 @@ nav {
 }
 .scroll-btn i {
   font-size: 20px;
+  color: #965a5f;
 }
 
 /* ----- MAIN BOX ----- */
@@ -282,13 +314,13 @@ nav {
 }
 .row {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   width: 100%;
   gap: 50px;
 }
 .col {
   display: flex;
-  width: 50%;
+  width: 65%;
 }
 
 /* -- ## --- RESUABLE CSS -- ## -- */
@@ -298,11 +330,11 @@ nav {
 }
 .top-header h1 {
   font-weight: 600;
-  color: var(--text-color-second);
+  color: var(--color-white);
   margin-bottom: 10px;
 }
 .top-header span {
-  color: #999;
+  color: var(--color-white);
 }
 h3 {
   font-size: 20px;
@@ -317,8 +349,8 @@ h3 {
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding-block: 30px 70px;
-  padding-inline: 20px;
+  padding-block: 40px 70px;
+  padding-inline: 35px;
   width: 100%;
   background: var(--color-white);
   box-shadow: 1px 8px 10px 2px var(--first-shadow-color);
@@ -326,8 +358,8 @@ h3 {
 }
 .about-info p {
   text-align: center;
-  font-size: 15px;
-  color: #777;
+  font-size: 17px;
+  color: #827171;
 }
 .about-btn button {
   position: absolute;
@@ -358,11 +390,15 @@ h3 {
   border-radius: 5px;
 }
 
+.skills-list span:hover {
+  background-color: var(--third-color);
+}
+
 /* ----- PROJECTS BOX ----- */
 .project-container {
   display: flex;
   width: 100%;
-  justify-content: space-between;
+  justify-content: space-evenly;
   gap: 20px;
   flex-wrap: wrap;
 }
@@ -381,19 +417,21 @@ h3 {
 }
 .project-box > i {
   font-size: 50px;
-  color: #00b5e7;
+  color: var(--first-color);
   margin-bottom: 25px;
 }
 .project-box label {
   font-size: 15px;
-  color: #777;
+  color: #827171;
+  padding: 10px;
+  text-align: center;
 }
 .project-box::after,
 .contact-info::after {
   content: "";
   position: absolute;
   bottom: -100%;
-  background: var(--second-color);
+  background: var(--third-color);
   width: 100%;
   height: 100%;
   transition: 0.4s;
@@ -445,7 +483,7 @@ h3 {
 .contact-info:hover.contact-info h2,
 .contact-info:hover.contact-info p,
 .contact-info:hover.contact-info i {
-  color: #777;
+  color: #505050;
   z-index: 2;
 }
 
@@ -508,6 +546,7 @@ footer {
 .top-footer p {
   font-size: 25px;
   font-weight: 600;
+  color: var(--text-color-third);
 }
 .middle-footer .footer-menu {
   display: flex;
@@ -521,13 +560,15 @@ footer {
   font-weight: 500;
   margin-inline: 20px;
 }
-.footer-social-icons {
-  display: flex;
-  gap: 30px;
-}
+
 .bottom-footer {
   font-size: 14px;
   margin-top: 10px;
+  color: var(--text-color-third);
+}
+
+.bottom-footer a {
+  color: var(--text-color-third);
 }
 
 /* ----- MEDIA QUERY == 1024px / RESPONSIVE ----- */
