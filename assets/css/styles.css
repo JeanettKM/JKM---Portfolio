@@ -18,6 +18,9 @@
   --third-color: #639b94;
   --fourth-color: #48817a;
   --first-shadow-color: rgba(0, 0, 0, 0.1);
+  --pink-variation-1: #c17b84;
+  --complimentary: #9ed1cb;
+  --complimentary-2: #6a9a94;
 }
 
 /* ----- BASE ----- */
@@ -231,7 +234,7 @@ nav {
   padding-left: 20px;
 }
 .featured-text-card span {
-  background: var(--third-color);
+  background: var(--complimentary-2);
   color: var(--color-white);
   padding: 3px 8px;
   font-size: 12px;
@@ -460,7 +463,7 @@ h3 {
   content: "";
   position: absolute;
   bottom: -100%;
-  background: var(--third-color);
+  background: var(--complimentary-2);
   width: 100%;
   height: 100%;
   transition: 0.4s;
@@ -487,7 +490,7 @@ h3 {
   padding: 20px 30px;
   width: 100%;
   height: 315px;
-  background: var(--third-color);
+  background: var(--complimentary-2);
   border-radius: 5px;
   box-shadow: 1px 8px 10px 2px var(--first-shadow-color);
   overflow: hidden;
