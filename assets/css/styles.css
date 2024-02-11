@@ -25,6 +25,30 @@
 
 /* ----- BASE ----- */
 
+h2 {
+  font-size: 18px;
+  margin-bottom: 25px;
+  color: var(--text-color-third);
+}
+
+h3 {
+  font-size: 18px;
+  margin-bottom: 25px;
+  color: var(--color-white);
+}
+
+h4 {
+  font-size: 18px;
+  margin-bottom: 25px;
+  color: var(--color-white);
+}
+
+h5 {
+  font-size: 18px;
+  margin-bottom: 25px;
+  color: var(--color-white);
+}
+
 body {
   min-width: 320px;
   overflow-x: hidden;
