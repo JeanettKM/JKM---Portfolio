@@ -38,7 +38,7 @@ var typingEffect = new Typed(".typedText", {
   backDelay: 2000,
 });
 
-/* ----- ## -- SCROLL REVEAL ANIMATION -- ## ----- */
+/* ------- SCROLL REVEAL ANIMATION ------- */
 const sr = ScrollReveal({
   origin: "top",
   distance: "80px",
@@ -59,8 +59,6 @@ sr.reveal(".project-box", { interval: 200 });
 
 /* -- HEADINGS -- */
 sr.reveal(".top-header", {});
-
-/* ----- ## -- SCROLL REVEAL LEFT_RIGHT ANIMATION -- ## ----- */
 
 /* -- ABOUT INFO & CONTACT INFO -- */
 const srLeft = ScrollReveal({
