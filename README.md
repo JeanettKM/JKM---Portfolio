@@ -17,7 +17,7 @@ Welcome to my personal frontend development portfolio! This repository contains 
 ## Getting Started
 
 1. **Clone this repository.**
-2. **Open `index.html` in your web browser or preferred text editor.**
+2. **Open `index_ENG.html` or `index_NO.html` in your web browser or preferred text editor. The ENG is english and the NO is Norwegian**
 
 ## Tools
 
