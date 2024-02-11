@@ -2,7 +2,12 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio - Jeanett K. Melsom, Front-end utvikler"
+    />
 
     <!----------- UNICONS ------------>
     <link
@@ -20,33 +25,49 @@
       type="image/x-icon"
     />
 
+    <!--------HOTJAR TRACKING---------->
+
+<script>
+  (function(h,o,t,j,a,r){
+      h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+      h._hjSettings={hjid:3544045,hjsv:6};
+      a=o.getElementsByTagName('head')[0];
+      r=o.createElement('script');r.async=1;
+      r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+      a.appendChild(r);
+  })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+
+<!----TITLE------>
+
     <title>Portfolio | Jeanett K. Melsom</title>
+
   </head>
   <body>
     <header>
       <nav id="header">
         <div class="nav-logo">
-          <p class="nav-name">Melsom Dev</p>
+          <p lang="No"class="nav-name">Melsom Dev</p>
         </div>
         <div class="nav-menu" id="myNavMenu">
           <ul class="nav_menu_list">
-            <li class="nav_list">
+            <li lang="No" class="nav_list">
               <a href="#home" class="nav-link active-link">Hjem</a>
               <div class="circle"></div>
             </li>
-            <li class="nav_list">
+            <li lang="No" class="nav_list">
               <a href="#about" class="nav-link">Om meg</a>
               <div class="circle"></div>
             </li>
-            <li class="nav_list">
+            <li lang="No" class="nav_list">
               <a href="#projects" class="nav-link">Erfaring</a>
               <div class="circle"></div>
             </li>
-            <li class="nav_list">
+            <li lang="No" class="nav_list">
               <a href="#contact" class="nav-link">Kontakt</a>
               <div class="circle"></div>
             </li>
-            <li class="nav_list">
+            <li lang="No" class="nav_list">
               <a href="index_ENG.html" class="nav-link"><img class="language_logo" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFOElEQVR4nO2Z+08cVRTHx9dvVmN/0P4PmqiBaXfAzkDFiNLiDHUbVNTEH7BpGm3RRpO2QLSxVBsTK0l/0DStWkiaasDOAKXALrAib1wo4WF5OsOyy8I+2F3Y3Zk95g5LXOgszLLDQg3f5P7Azr3nns/lPs65F8N2tKMdaSKKufUcAJwEgOsCgbfxOnycJ3CvXHT4OPoNfUN1UF1sO+jAocpnSJotJGn2LsVwsCyBwBXLslBdkub6SJo9TenZPQl3PCW7YhfJsJ9RDOtCziyXWAAiipeiuZIM/Z0nE+J8GsNmkQw3s8qJeABALjRrRbY3zfGk/M7HSJr7hmLYkKID8QIwqLAhiua+Q31p6rxef+MRkubKo3esFQC3tD4YrkIzCOQ8RbPX1+tUSwBKhmBvor7jBvD7pW9vG3lDhr7an0iAl49UL9Y0TBbG5TwAHFnu1B8QR86UdHYkAuBMSYc5EJBG5cqLi29u1PndAGCFVbLafO1H8uunNgPg8Af11pEJlwkAQiBJIdfVKyYhdd/QSFJS7Fus/aNjRUGLxQIKkiRw3vh91JCWUyVqAZDOVEm/3Py7SZLAhb4H7t0bs7z2SvdyO16XfD4m5yd1ut08gXtQGOA494URgsGgEohvQRw4WdjaFw/AibOtg15vYFAeGJ/Pay84YRAIPBDZbupgJgpD1J/YPIGfXWHgADng7+rsV4JA/Q4MO+uy8mpnYwHIyrvt7OmzNwKAKA9GfV2rQBKjq9rMuS6XNqHpBADqFjQAPBTk+T+nmTdMkcZ4Apes7+e1iQ6HS3laSTYAkOfvOgChH8uGm0VJmkF/iDabZTpX37iqr5A17+0WcdY+F9HFmFqAFwDAg1p4KitahNR9/ArjqXut7mtXWyG6etYA6AGAv+Raoii5Si818ATuXlGPTBn3GRrMUWw/rwbgEwBAi7cLYtcCABjWAAgAQHO4XqxCg3ZMDUBZRKN2AJhU2UE3AIyoWQMAMAEAHSrtTob9QCpbF4DXJXdEc2CrC6/D21UAyNnT9gQgktdfyGjv374AuPdBB/CoAEge28ZTaFTNGmjfakeF6KVtXYDw1QeEDzMjACjGQWspmgMbVBAAUMjhVrWNAkBBeN8VNtrjGgDjG7UJS4frh2oAXlQeh2DAeeH8HbSQIp2aSieH/N1dgypPYvl7tJPYU1nxh2Lo8tO1dtWhRBhiKRsKa9Hc0yek7+9ftSN4HV+dawZRlKNJ2+xCR/iEXXcK5R03TthnFzqVIKT5effM0Xwjr0sWI9tO65kqFGiqBSiWjfl88/aPj9fdZ+xQVkeQ/4dHdURRmrr0Q79xI/lAyffm9mBQVJyq/r7ewamMtLsR7T9X5XwYYI+Hu9UivKQTVv8758vLWpYnVafZ3pD5Vs18PAnNq7k1XoNJQJuF/z4KFLFeLm3iCdxmIYinsVgkEPjXEdMlNP1Orkmcm5OTFpc70Jv/qWlYy5z46CnTkNsT7FWcVk7nRSxWzaSk7BJ0uCDsl+Pz7nAu7PiVG2tEOexmJPVpOWzoSvlQiyhJkYkMSpSewjaiuYsXsiX/4iLKooZGnMbs92rtibhWOfhurSOcbkroageLRzb7QklB8X+Je6IutiiGg1NfthVjmtyLMlxZogFIhvsZKyp6GNPsZprhKhIGQHO/UZThUUxLIYMUwxVTNCdt8vV6iWYjryT0CEHRrE1rAJLmLGRO1etYIkTpDY9r9cREMqwHjfrezKonsC165DuNHuxiBqBZMxoEZAN70J5Z0w9XP7vV/u5oR/8X/Qsqblqc0YX1FgAAAABJRU5ErkJggg==" alt="Ikon for det britiske flagg, bytt språk til Engelsk."></a>
             </li>
           </ul>
@@ -68,11 +89,11 @@
               <span>Jeanett K. Melsom</span>
             </div>
             <div class="featured-name">
-              <p>Jeg er en <span class="typedText"></span></p>
+              <p lang="No">Jeg er en <span class="typedText"></span></p>
             </div>
             <section class="S-Screen-text">
               <div class="featured-text-info">
-                <p>
+                <p lang="No">
                   Allsidig i teknologi og kreativitet med sterke kundeservice ferdigheter. <br> Design entusiast og dyreelsker. Sertifisert vippeteknikker. <br><br> Front-end utvikler med karriere ambisjoner om å mestre Fullstack.
                 </p>
               </div>
@@ -93,7 +114,7 @@
             </div>
             <div class="featured-image">
               <div class="image">
-                <img
+                <img lang="No"
                   src="assets/images/Avatar-Jeanett-brun-bakgrunn.png"
                   alt="Bilde av meg - Jeanett k. Melsom"
                 />
@@ -102,13 +123,13 @@
         </section>
         <section class="section" id="about">
           <div class="top-header">
-            <h1>Om meg</h1>
+            <h1 lang="No">Om meg</h1>
           </div>
           <div class="row">
             <div class="col">
               <div class="about-info">
-                <h3>Introduksjon</h3>
-                <p> Hei, jeg er er 27 år gammel, Norsk, junior Front-end utvikler som er i starten av sin utvikler karriere. <br> Jeg flyttet fra min hjemby Oslo for to år siden og bor for øyeblikket i Trondheim, Norge. <br> <br> <br>
+                <h3 lang="No">Introduksjon</h3>
+                <p lang="No"> Hei, jeg er er 27 år gammel, Norsk, junior Front-end utvikler som er i starten av sin utvikler karriere. <br> Jeg flyttet fra min hjemby Oslo for to år siden og bor for øyeblikket i Trondheim, Norge. <br> <br> <br>
                     Jeg har alltid vært interessert i teknologi og design, da jeg flyttet til min nye hjemby, bestemte jeg meg for at det var et godt tidspunkt for en karriereendring og bestemte meg for å studere front-end utvikling. <br><br>
                     Jeg uteksamineres fra Noroff School of Technology and Digital Media våren 2024. <br> <br>
 
@@ -122,7 +143,7 @@
             <div class="col">
               <div class="skills-box">
                 <div class="skills-header">
-                  <h3>Front-end programmer og verktøy</h3>
+                  <h3 lang="No">Front-end programmer og verktøy</h3>
                 </div>
                 <div class="skills-list">
                   <span>HTML</span>
@@ -144,7 +165,7 @@
             <div class="col">
               <div class="skills-box">
                 <div class="skills-header">
-                  <h3>Andre egenskaper</h3>
+                  <h3 lang="No">Andre egenskaper</h3>
                 </div>
                 <div class="skills-list">
                   <span>Adobe Photoshop</span>
@@ -166,12 +187,12 @@
         </section>
         <section class="section" id="projects">
           <div class="top-header">
-            <h1>Min erfaring</h1>
+            <h1 lang="No">Min erfaring</h1>
           </div>
           <div class="project-container">
             <div class="project-box">
               <i class="uil uil-briefcase-alt"></i>
-              <h3>Prosjekter</h3>
+              <h3 lang="No">Prosjekter</h3>
               <label>4 fullførte prosjekter, de er ikke lagt til her enda. Du kan man finne dem på min Github om ønskelig.</label>
             </div>
             <div class="project-box">
@@ -183,16 +204,16 @@
         </section>
         <section class="section" id="contact">
           <div class="top-header">
-            <h1>Ta kontakt</h1>
+            <h1 lang="No" >Ta kontakt</h1>
             <span>Har du noen spørsmål så ta gjerne kontakt</span>
           </div>
           <div class="row">
             <div class="col">
               <div class="contact-info">
-                <h2>Få tak i meg<i class="uil uil-corner-right-down"></i></h2>
-                <p><i class="uil uil-envelope"></i> Epost: Jeanettk.m@hotmail.com</p>
-                <p><i class="uil uil-phone"></i> Tel: +4796006006</p>
-                <p><i class="uil uil-map-marker-alt"></i> Lokasjon: Trondheim, Norway</p></p>
+                <h2 lang="No">Få tak i meg<i class="uil uil-corner-right-down"></i></h2>
+                <p lang="No"><i class="uil uil-envelope"></i> Epost: Jeanettk.m@hotmail.com</p>
+                <p lang="No"><i class="uil uil-phone"></i> Tel: +4796006006</p>
+                <p lang="No"><i class="uil uil-map-marker-alt"></i> Lokasjon: Trondheim, Norway</p></p>
               </div>
             </div>
             <!-- <div class="col">
@@ -216,29 +237,29 @@
       </main>
       <footer>
         <div class="top-footer">
-          <p>Jeanett K. Melsom</p>
+          <p lang="No">Jeanett K. Melsom</p>
         </div>
         <div class="middle-footer">
           <ul class="footer-menu">
-            <li class="footer_menu_list">
+            <li lang="No" class="footer_menu_list">
               <a href="#home">Hjem</a>
             </li>
-            <li class="footer_menu_list">
+            <li lang="No" class="footer_menu_list">
               <a href="#about">Om meg</a>
             </li>
-            <li class="footer_menu_list">
+            <li lang="No" class="footer_menu_list">
               <a href="#projects">Erfaring</a>
             </li>
-            <li class="footer_menu_list">
+            <li lang="No" class="footer_menu_list">
               <a href="#contact">Ta kontakt</a>
             </li>
-            <li class="footer_menu_list">
-              <a href="index_ENG.html" class="nav-link"><img class="language_logo_footer" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFOElEQVR4nO2Z+08cVRTHx9dvVmN/0P4PmqiBaXfAzkDFiNLiDHUbVNTEH7BpGm3RRpO2QLSxVBsTK0l/0DStWkiaasDOAKXALrAib1wo4WF5OsOyy8I+2F3Y3Zk95g5LXOgszLLDQg3f5P7Azr3nns/lPs65F8N2tKMdaSKKufUcAJwEgOsCgbfxOnycJ3CvXHT4OPoNfUN1UF1sO+jAocpnSJotJGn2LsVwsCyBwBXLslBdkub6SJo9TenZPQl3PCW7YhfJsJ9RDOtCziyXWAAiipeiuZIM/Z0nE+J8GsNmkQw3s8qJeABALjRrRbY3zfGk/M7HSJr7hmLYkKID8QIwqLAhiua+Q31p6rxef+MRkubKo3esFQC3tD4YrkIzCOQ8RbPX1+tUSwBKhmBvor7jBvD7pW9vG3lDhr7an0iAl49UL9Y0TBbG5TwAHFnu1B8QR86UdHYkAuBMSYc5EJBG5cqLi29u1PndAGCFVbLafO1H8uunNgPg8Af11pEJlwkAQiBJIdfVKyYhdd/QSFJS7Fus/aNjRUGLxQIKkiRw3vh91JCWUyVqAZDOVEm/3Py7SZLAhb4H7t0bs7z2SvdyO16XfD4m5yd1ut08gXtQGOA494URgsGgEohvQRw4WdjaFw/AibOtg15vYFAeGJ/Pay84YRAIPBDZbupgJgpD1J/YPIGfXWHgADng7+rsV4JA/Q4MO+uy8mpnYwHIyrvt7OmzNwKAKA9GfV2rQBKjq9rMuS6XNqHpBADqFjQAPBTk+T+nmTdMkcZ4Apes7+e1iQ6HS3laSTYAkOfvOgChH8uGm0VJmkF/iDabZTpX37iqr5A17+0WcdY+F9HFmFqAFwDAg1p4KitahNR9/ArjqXut7mtXWyG6etYA6AGAv+Raoii5Si818ATuXlGPTBn3GRrMUWw/rwbgEwBAi7cLYtcCABjWAAgAQHO4XqxCg3ZMDUBZRKN2AJhU2UE3AIyoWQMAMAEAHSrtTob9QCpbF4DXJXdEc2CrC6/D21UAyNnT9gQgktdfyGjv374AuPdBB/CoAEge28ZTaFTNGmjfakeF6KVtXYDw1QeEDzMjACjGQWspmgMbVBAAUMjhVrWNAkBBeN8VNtrjGgDjG7UJS4frh2oAXlQeh2DAeeH8HbSQIp2aSieH/N1dgypPYvl7tJPYU1nxh2Lo8tO1dtWhRBhiKRsKa9Hc0yek7+9ftSN4HV+dawZRlKNJ2+xCR/iEXXcK5R03TthnFzqVIKT5effM0Xwjr0sWI9tO65kqFGiqBSiWjfl88/aPj9fdZ+xQVkeQ/4dHdURRmrr0Q79xI/lAyffm9mBQVJyq/r7ewamMtLsR7T9X5XwYYI+Hu9UivKQTVv8758vLWpYnVafZ3pD5Vs18PAnNq7k1XoNJQJuF/z4KFLFeLm3iCdxmIYinsVgkEPjXEdMlNP1Orkmcm5OTFpc70Jv/qWlYy5z46CnTkNsT7FWcVk7nRSxWzaSk7BJ0uCDsl+Pz7nAu7PiVG2tEOexmJPVpOWzoSvlQiyhJkYkMSpSewjaiuYsXsiX/4iLKooZGnMbs92rtibhWOfhurSOcbkroageLRzb7QklB8X+Je6IutiiGg1NfthVjmtyLMlxZogFIhvsZKyp6GNPsZprhKhIGQHO/UZThUUxLIYMUwxVTNCdt8vV6iWYjryT0CEHRrE1rAJLmLGRO1etYIkTpDY9r9cREMqwHjfrezKonsC165DuNHuxiBqBZMxoEZAN70J5Z0w9XP7vV/u5oR/8X/Qsqblqc0YX1FgAAAABJRU5ErkJggg==" alt="Ikon for det britiske flagg, bytt språk til Engelsk."></a>
+            <li lang="No" class="footer_menu_list">
+              <a href="index_ENG.html" class="nav-link"><img lang="No" class="language_logo_footer" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFOElEQVR4nO2Z+08cVRTHx9dvVmN/0P4PmqiBaXfAzkDFiNLiDHUbVNTEH7BpGm3RRpO2QLSxVBsTK0l/0DStWkiaasDOAKXALrAib1wo4WF5OsOyy8I+2F3Y3Zk95g5LXOgszLLDQg3f5P7Azr3nns/lPs65F8N2tKMdaSKKufUcAJwEgOsCgbfxOnycJ3CvXHT4OPoNfUN1UF1sO+jAocpnSJotJGn2LsVwsCyBwBXLslBdkub6SJo9TenZPQl3PCW7YhfJsJ9RDOtCziyXWAAiipeiuZIM/Z0nE+J8GsNmkQw3s8qJeABALjRrRbY3zfGk/M7HSJr7hmLYkKID8QIwqLAhiua+Q31p6rxef+MRkubKo3esFQC3tD4YrkIzCOQ8RbPX1+tUSwBKhmBvor7jBvD7pW9vG3lDhr7an0iAl49UL9Y0TBbG5TwAHFnu1B8QR86UdHYkAuBMSYc5EJBG5cqLi29u1PndAGCFVbLafO1H8uunNgPg8Af11pEJlwkAQiBJIdfVKyYhdd/QSFJS7Fus/aNjRUGLxQIKkiRw3vh91JCWUyVqAZDOVEm/3Py7SZLAhb4H7t0bs7z2SvdyO16XfD4m5yd1ut08gXtQGOA494URgsGgEohvQRw4WdjaFw/AibOtg15vYFAeGJ/Pay84YRAIPBDZbupgJgpD1J/YPIGfXWHgADng7+rsV4JA/Q4MO+uy8mpnYwHIyrvt7OmzNwKAKA9GfV2rQBKjq9rMuS6XNqHpBADqFjQAPBTk+T+nmTdMkcZ4Apes7+e1iQ6HS3laSTYAkOfvOgChH8uGm0VJmkF/iDabZTpX37iqr5A17+0WcdY+F9HFmFqAFwDAg1p4KitahNR9/ArjqXut7mtXWyG6etYA6AGAv+Raoii5Si818ATuXlGPTBn3GRrMUWw/rwbgEwBAi7cLYtcCABjWAAgAQHO4XqxCg3ZMDUBZRKN2AJhU2UE3AIyoWQMAMAEAHSrtTob9QCpbF4DXJXdEc2CrC6/D21UAyNnT9gQgktdfyGjv374AuPdBB/CoAEge28ZTaFTNGmjfakeF6KVtXYDw1QeEDzMjACjGQWspmgMbVBAAUMjhVrWNAkBBeN8VNtrjGgDjG7UJS4frh2oAXlQeh2DAeeH8HbSQIp2aSieH/N1dgypPYvl7tJPYU1nxh2Lo8tO1dtWhRBhiKRsKa9Hc0yek7+9ftSN4HV+dawZRlKNJ2+xCR/iEXXcK5R03TthnFzqVIKT5effM0Xwjr0sWI9tO65kqFGiqBSiWjfl88/aPj9fdZ+xQVkeQ/4dHdURRmrr0Q79xI/lAyffm9mBQVJyq/r7ewamMtLsR7T9X5XwYYI+Hu9UivKQTVv8758vLWpYnVafZ3pD5Vs18PAnNq7k1XoNJQJuF/z4KFLFeLm3iCdxmIYinsVgkEPjXEdMlNP1Orkmcm5OTFpc70Jv/qWlYy5z46CnTkNsT7FWcVk7nRSxWzaSk7BJ0uCDsl+Pz7nAu7PiVG2tEOexmJPVpOWzoSvlQiyhJkYkMSpSewjaiuYsXsiX/4iLKooZGnMbs92rtibhWOfhurSOcbkroageLRzb7QklB8X+Je6IutiiGg1NfthVjmtyLMlxZogFIhvsZKyp6GNPsZprhKhIGQHO/UZThUUxLIYMUwxVTNCdt8vV6iWYjryT0CEHRrE1rAJLmLGRO1etYIkTpDY9r9cREMqwHjfrezKonsC165DuNHuxiBqBZMxoEZAN70J5Z0w9XP7vV/u5oR/8X/Qsqblqc0YX1FgAAAABJRU5ErkJggg==" alt="Ikon for det britiske flagg, bytt språk til Engelsk."></a>
             </li>
           </ul>
         </div>
         <div class="bottom-footer">
-          <p>
+          <p lang="No">
             Copyright &copy;
             <a href="#home" style="text-decoration: none">Jeanett K. Melsom</a> - All
             rights reserved
