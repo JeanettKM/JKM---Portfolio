@@ -726,6 +726,7 @@ footer {
     font-size: 30px;
     display: flex;
     justify-content: center;
+    text-align: center;
   }
   .social_icons {
     display: flex;
