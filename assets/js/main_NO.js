@@ -27,7 +27,7 @@ function headerShadow() {
 /* ----- TYPING EFFECT ----- */
 var typingEffect = new Typed(".typedText", {
   strings: [
-    "Front-end utvikler",
+    "Frontend utvikler",
     "Sertifisert vippeteknikker",
     "Dyreelsker",
     "Esport entusiast",

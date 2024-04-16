@@ -27,7 +27,7 @@
 
 h1,
 h2 {
-  font-size: 18px;
+  font-size: 20x;
   margin-bottom: 25px;
   color: var(--text-color-third);
 }
@@ -115,10 +115,6 @@ i {
 
 .icon i {
   color: var(--first-color);
-}
-
-i:hover {
-  color: var(--third-color);
 }
 
 /* ------- BASE -------- */
@@ -387,7 +383,7 @@ h3 {
   font-size: 20px;
   font-weight: 600;
   color: var(--text-color-second);
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 /* ----- ABOUT INFO ----- */
@@ -405,7 +401,7 @@ h3 {
 }
 .about-info p {
   text-align: center;
-  font-size: 17px;
+  font-size: 16px;
   color: #827171;
 }
 .about-btn button {
@@ -433,7 +429,7 @@ h3 {
   font-size: 14px;
   background: var(--first-color);
   color: var(--color-white);
-  padding: 2px 10px;
+  padding: 4px 10px;
   border-radius: 5px;
 }
 
@@ -478,7 +474,7 @@ h3 {
   content: "";
   position: absolute;
   bottom: -100%;
-  background: var(--complimentary-2);
+  background: var(--text-color-third);
   width: 100%;
   height: 100%;
   transition: 0.4s;
@@ -505,7 +501,7 @@ h3 {
   padding: 20px 30px;
   width: 100%;
   height: 315px;
-  background: var(--complimentary-2);
+  background: var(--text-color-third);
   border-radius: 5px;
   box-shadow: 1px 8px 10px 2px var(--first-shadow-color);
   overflow: hidden;
@@ -594,6 +590,7 @@ footer {
   font-size: 22px;
   font-weight: 600;
   color: var(--text-color-third);
+  padding-bottom: 25px;
 }
 .middle-footer .footer-menu {
   display: flex;
@@ -776,10 +773,6 @@ footer {
 
   .about-info h3 {
     margin-bottom: 20px;
-  }
-
-  .about-info p {
-    font-size: 16px;
   }
 
   .featured-text-info p {
@@ -972,4 +965,8 @@ footer {
   .featured-text-info p {
     font-size: 14px;
   }
+}
+
+.icon:hover {
+  box-shadow: 0px 2px 5px 0px rgba(255, 179, 198, 0.25);
 }
