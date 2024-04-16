@@ -284,7 +284,7 @@ nav {
 .social_icons {
   display: flex;
   margin-top: 5em;
-  gap: 30px;
+  gap: 55px;
 }
 .icon {
   display: flex;
@@ -635,7 +635,7 @@ footer {
 }
 
 /* ----- MEDIA QUERY == 900px / M screens - Tablets / RESPONSIVE ----- */
-@media only screen and (max-width: 920px) {
+@media only screen and (max-width: 940px) {
   .nav-button {
     display: none;
   }
@@ -970,5 +970,5 @@ footer {
 }
 
 .icon:hover {
-  box-shadow: 0px 2px 5px 0px rgba(255, 179, 198, 0.25);
+  box-shadow: 0px 2px 5px 0px rgba(255, 243, 246, 0.25);
 }
