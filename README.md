@@ -36,7 +36,9 @@ https://melsom-dev.netlify.app/
 
 ## Projects
 
-### 1. [Project Exam 2](https://github.com/JeanettKM/JeanettKM_Eksamen_FD)
+### 1. [Project Exam 2](https://github.com/JeanettKM/JeanettKM_Eksamen_FD-Copy)
+
+I added a copy of the original as the original is still being graded and im not allowed to edit it or make changes to the original repo. Therefor i've created a copy so that I could edit the Readme file according to what is required for this portfolio assignment.
 
 - **Live Site:** [Project Exam 2 Live](https://6653af49c52172d43cce1d71--stately-cuchufli-699834.netlify.app/)
 - **Description:** This final project involved creating a full-featured web application from scratch, demonstrating mastery of front-end development skills learned throughout the course.
