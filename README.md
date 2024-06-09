@@ -57,7 +57,7 @@ https://melsom-dev.netlify.app/
 ## Getting Started
 
 1. **Clone this repository.**
-2. **Open `index_ENG.html` or `index_NO.html` in your web browser or preferred text editor. The ENG is English and the NO is Norwegian.**
+2. **Open `index.html` for the norwegian version or `index_ENG.html` for the english version in your web browser or preferred text editor.**
 
 ### dependencies:
 
