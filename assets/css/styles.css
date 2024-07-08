@@ -267,6 +267,13 @@ nav {
   font-weight: 300;
 }
 
+.iAmtext {
+  font-size: 25px;
+  font-weight: 300;
+  color: var(--text-color-third);
+  margin-bottom: 20px;
+}
+
 .featured-text-info {
   font-size: 17px;
   margin-bottom: 30px;
