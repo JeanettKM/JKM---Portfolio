@@ -31,6 +31,7 @@ h2 {
   font-size: 20px;
   margin-bottom: 25px;
   color: var(--text-color-third);
+  font-weight: 200;
 }
 
 h3,
@@ -79,6 +80,13 @@ html {
 a {
   color: var(--color-white);
   text-decoration: none;
+}
+
+.iAmtext {
+  font-size: 20px;
+  font-weight: 300;
+  color: var(--text-color-third);
+  margin-bottom: 20px;
 }
 
 /* ----- GLOBAL BUTTON DESIGN ----- */
