@@ -1,6 +1,7 @@
 /* ----- FONT Link ----- */
 
-@import url("https://fonts.googleapis.com/css2?family=Slackside+One&family=Sofia+Sans+Condensed:ital,wght@0,300;0,400;0,500;0,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&display=swap");
 
 /* ----- VARIABLES ----- */
 :root {
@@ -49,7 +50,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Sofia Sans Semi Condensed", sans-serif;
+  font-family: "Quicksand", sans-serif;
 }
 
 /* ----- SMOOTH SCROLL ----- */
@@ -253,7 +254,7 @@ nav {
   border-radius: 3px;
 }
 .featured-name {
-  font-size: 35px;
+  font-size: 30px;
   font-weight: 600;
   color: var(--text-color-third);
   margin-block: 20px;
@@ -261,8 +262,9 @@ nav {
 .typedText {
   text-transform: capitalize;
   color: var(--text-color-second);
-  font-family: "Slackside One", cursive;
-  font-size: 62px;
+  font-family: "Noto Serif Display";
+  font-size: 50px;
+  font-weight: 300;
 }
 
 .featured-text-info {
@@ -813,7 +815,7 @@ footer {
   }
 
   .typedText {
-    font-size: 55px;
+    font-size: 45px;
   }
 
   .btn {
