@@ -28,10 +28,10 @@
 
 h1,
 h2 {
-  font-size: 20px;
+  font-size: 22px;
   margin-bottom: 25px;
   color: var(--text-color-third);
-  font-weight: 200;
+  font-weight: 400;
 }
 
 h3,
@@ -40,6 +40,7 @@ h5 {
   font-size: 18px;
   margin-bottom: 25px;
   color: var(--color-white);
+  font-weight: 300;
 }
 
 body {
@@ -91,7 +92,7 @@ a {
 
 /* ----- GLOBAL BUTTON DESIGN ----- */
 .btn {
-  font-weight: 500;
+  font-weight: 400;
   padding: 10px 20px;
   background: var(--text-color-third);
   border: none;
@@ -180,7 +181,7 @@ nav {
 }
 .nav-name {
   font-size: 25px;
-  font-weight: 600;
+  font-weight: 400;
   color: var(--text-color-third);
 }
 .nav-logo span {
@@ -389,12 +390,11 @@ nav {
   margin-bottom: 5em;
 }
 .top-header h1 {
-  font-weight: 600;
+  font-weight: 400;
   color: var(--color-white);
   margin-bottom: 10px;
-  text-shadow: 1px 1px 2px rgba(57, 57, 57, 0.5);
   padding: 10px 20px;
-  font-size: 25px;
+  font-size: 22px;
 }
 
 .top-header span {
@@ -402,9 +402,9 @@ nav {
 }
 h3 {
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 500;
   color: var(--text-color-second);
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 /* ----- ABOUT INFO ----- */
@@ -423,7 +423,7 @@ h3 {
 .about-info p {
   text-align: left;
   font-size: 16px;
-  color: #827171;
+  color: #413232;
 }
 .about-btn button {
   position: absolute;
@@ -507,7 +507,7 @@ h3 {
 
 .project-info p {
   font-size: 1em;
-  color: #827171;
+  color: #413232;
   margin-bottom: 15px;
 }
 
@@ -834,7 +834,6 @@ footer {
   }
 
   .btn {
-    font-weight: 500;
     padding: 15px 25px;
     background: var(--text-color-third);
     border: none;
@@ -872,7 +871,15 @@ footer {
     padding-right: 15px;
     padding-top: 5vh;
   }
-
+  .featured-text-info {
+    font-size: 17px;
+    margin-bottom: 30px;
+    color: var(--text-color-third);
+    margin: auto;
+    width: 70%;
+    text-align: left;
+    margin-bottom: 40px;
+  }
   .project-info p {
     font-size: 1em;
     color: #827171;
@@ -895,6 +902,7 @@ footer {
 
   .about-info p {
     font-size: 15px;
+    color: #413232;
   }
 
   .featured-text-info p {
@@ -940,7 +948,6 @@ footer {
   }
 
   .btn {
-    font-weight: 500;
     padding: 10px 40px;
     background: var(--text-color-third);
     border: none;
@@ -962,6 +969,15 @@ footer {
 
   .featured-box {
     height: 730px;
+  }
+  .featured-text-info {
+    font-size: 17px;
+    margin-bottom: 30px;
+    color: var(--text-color-third);
+    margin: auto;
+    width: 90%;
+    text-align: left;
+    margin-bottom: 20px;
   }
 }
 
@@ -1004,7 +1020,6 @@ footer {
   }
 
   .btn {
-    font-weight: 500;
     padding: 13px 40px;
     background: var(--text-color-third);
     border: none;
