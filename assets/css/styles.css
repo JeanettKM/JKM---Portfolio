@@ -179,6 +179,11 @@ nav {
 .nav-logo {
   position: relative;
 }
+
+.nav_list a {
+  font-weight: 400;
+  font-size: 15px;
+}
 .nav-name {
   font-size: 25px;
   font-weight: 400;
@@ -202,7 +207,7 @@ nav {
 .nav-link {
   text-decoration: none;
   color: var(--text-color-second);
-  font-weight: 500;
+  font-weight: 400;
   padding-inline: 15px;
   margin-inline: 20px;
 }
@@ -515,7 +520,7 @@ h3 {
   display: inline-block;
   color: var(--first-color);
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 500;
   padding: 10px 15px;
   border: 1px solid var(--first-color);
   border-radius: 3px;
@@ -633,7 +638,7 @@ footer {
 }
 .top-footer p {
   font-size: 22px;
-  font-weight: 600;
+  font-weight: 400;
   color: var(--text-color-third);
   padding-bottom: 25px;
 }
@@ -646,7 +651,7 @@ footer {
 .footer_menu_list a {
   text-decoration: none;
   color: var(--text-color-second);
-  font-weight: 500;
+  font-weight: 400;
   margin-inline: 20px;
 }
 
