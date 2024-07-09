@@ -1090,6 +1090,7 @@ footer {
   text-decoration: none;
   position: relative;
   border: 1px solid #ccc;
+  padding: 10px 15px;
 }
 
 .disabled-link::after {
@@ -1112,4 +1113,9 @@ footer {
 
 .disabled-link:hover::after {
   opacity: 1;
+}
+
+.unavailable-text {
+  color: #ccc;
+  font: 10px;
 }
