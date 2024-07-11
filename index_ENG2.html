@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio - Jeanett K. Melsom, Frontend developer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!----------- UNICONS ------------>
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+
+    <!----------- CSS ------------>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!----------- FAVICON ------------>
+    <link
+      rel="shortcut icon"
+      href="assets/images/favicon-16x16.png"
+      type="image/x-icon"
+    />
+
+    <!-- Hotjar Tracking Code for My New Portfolio 2 -->
+    <script>
+      (function (h, o, t, j, a, r) {
+        h.hj =
+          h.hj ||
+          function () {
+            (h.hj.q = h.hj.q || []).push(arguments);
+          };
+        h._hjSettings = { hjid: 3861987, hjsv: 6 };
+        a = o.getElementsByTagName("head")[0];
+        r = o.createElement("script");
+        r.async = 1;
+        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+        a.appendChild(r);
+      })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
+    </script>
+
+    <!-----Plausible tracking----->
+    <script
+      defer
+      data-domain="melsom-dev.netlify.app"
+      src="https://plausible.io/js/script.js"
+    ></script>
+
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-6TVMHKS13B"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-6TVMHKS13B");
+    </script>
+
+    <!----TITLE------>
+    <title>Portfolio | Jeanett K. Melsom</title>
+  </head>
+  <body>
+    <header>
+      <nav id="header">
+        <div class="nav-logo">
+          <a href="#home"><p lang="en-GB" class="nav-name">Melsom Dev</p></a>
+        </div>
+        <div class="nav-menu" id="myNavMenu">
+          <ul class="nav_menu_list">
+            <li lang="en-GB" class="nav_list">
+              <a href="#home" class="nav-link active-link">Home</a>
+            </li>
+            <li lang="en-GB" class="nav_list">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li lang="en-GB" class="nav_list">
+              <a href="#projects" class="nav-link">Experience</a>
+            </li>
+            <li lang="en-GB" class="nav_list">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+            <li lang="en-GB" class="nav_list">
+              <a href="index.html" class="nav-link"
+                ><img
+                  lang="en-GB"
+                  class="language_logo"
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAACmklEQVR4nO2Zz2sTQRTHv7RWwaM/Thb/AHurKJHOZA+KlDbYeggpevVi0aNoBT3WQosgbUml9OCtaMWKppd6kOLBQwWFiDdBrSZosqaoNKmaJzNsagiNO5v9kYnsg+913vezu/Pm7RsgjDDCcB23ei/umugfPn+9f2R5ODb+qfD8yQ/z9YtfxLFpySSONDHcJ4ar1IMIAW1odny/eal7fXHuWd/g3d/G6RRVlPu6LkUc9cXwgRhukIHOwI0Tw37iuJ3PZqXRavPKAH9VIoYkGdgXjPkozhBHXiSvGHUJQNYbyRHDkH/GD6ODGGark3oKwLdAZkQur83vJo6l2mS+AHAJkRI5vTLfsZ15XwG41DIdwk73ADWfTYAAJDa3O/McZ/+VwHcALpVozPxx7CWGLxoA5BsqsaLO2y0eEAARx7Qz8wY65QGjD0CJenDQydMfU1k4QAASbYeaeaBN9im6AXCsURzt9gBRHFNdNGAAIo6j9gCi3dUX4IotQGEl9bFiQFX1ALxWYWVpzRbATK9u6Apgplc3bAFiA/PlWkO6KDYwX7YFODH4sOlGjToS3v5/gFirf0Jmq2/iQquXUdL5IGO4bA8ghk66AkRxRLWZe68hwDvlaZ6cmOkGwDCqZF7LHxqGIkVwQBnAegtJjQAmHZmXABHs0eKnniHX8NxUzCo1AIg3ZL4KYqZpAAxTrsxLgDjaieNB4AAMj8nADtcAW8NdMXANDuCRZ8PdmvF60ncAhinPnvy2IByJSnXyGOCz6w3raG7KMZ3PZtwDMBRFnRdlG0FHaexc17eF5NOhU3M/HQOIfoth1PEJ60eIJuvOyURiovfC4kjftbfmm5fFXCZTttqRknWn9oo47omWWHSVWlyzhhEGWj/+APDp7ow1t656AAAAAElFTkSuQmCC"
+                  alt="Icon of the Norwegian flag, click to view the page in Norwegian"
+              /></a>
+            </li>
+          </ul>
+        </div>
+        <div class="nav-button">
+          <button class="btn">
+            <a
+              href="/assets/files/CV_Jeanett_Kestner_Melsom_ENG.pdf"
+              download="CV_Jeanett_Kestner_Melsom_ENG"
+              >Download CV <i class="uil uil-file-alt"></i
+            ></a>
+          </button>
+        </div>
+        <div class="nav-menu-btn">
+          <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+        </div>
+      </nav>
+    </header>
+    <div class="container">
+      <main class="wrapper">
+        <section class="featured-box" id="home">
+          <div class="featured-text">
+            <div class="featured-name">
+              <p class="iAmtext" lang="en-GB">
+                I'm a <span class="typedText"></span>
+              </p>
+            </div>
+            <section class="S-Screen-text">
+              <div class="featured-text-info">
+                <p lang="en-GB">
+                  Tech enthusiast with a creative eye and strong customer
+                  service skills. Design lover and animal advocate. Certified
+                  lash technician.
+                  <br /><br />
+                  Frontend developer and UX designer with a burning passion for
+                  elegant and functional design.
+                </p>
+              </div>
+              <div class="featured-text-btn">
+                <a href="#contact">
+                  <button class="btn Contact-btn">Contact me</button>
+                </a>
+                <button class="btn">
+                  <a
+                    href="/assets/files/CV_Jeanett_Kestner_Melsom_ENG.pdf"
+                    download="CV_Jeanett_Kestner_Melsom_ENG"
+                    >Download CV <i class="uil uil-file-alt"></i
+                  ></a>
+                </button>
+              </div>
+              <div class="social_icons">
+                <a href="https://github.com/JeanettKM">
+                  <div class="icon"><i class="uil uil-github-alt"></i></div>
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/jeanett-k-melsom-927ab4123"
+                >
+                  <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
+                </a>
+                <a href="https://www.instagram.com/jeanett_km/">
+                  <div class="icon"><i class="uil uil-instagram"></i></div>
+                </a>
+              </div>
+            </section>
+          </div>
+          <div class="featured-image">
+            <div class="image">
+              <img
+                lang="en-GB"
+                src="assets/images/Avatar-Jeanett-ingen-bakgrunn.png"
+                alt="Picture of me - Jeanett K. M"
+              />
+            </div>
+          </div>
+          <div class="full-height-image">
+            <img src="assets/images/Avatar-Jeanett-ingen-bakgrunn.png" alt="Full height picture of Jeanett" />
+          </div>
+          
+          </div>
+        </section>
+
+        <section class="section" id="about">
+          <div class="top-header">
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="about-info">
+                <h3 lang="en-GB">My introduction</h3>
+                <p lang="en-GB">
+                  Hi! I am a 27-year-old Norwegian frontend developer living in
+                  Trondheim. After moving from Oslo two years ago, I decided to
+                  pursue a career in technology and design.
+                  <br /><br />
+                  I am now a graduate of Noroff School of Technology and Digital
+                  Media. My experience includes working with HTML, CSS,
+                  JavaScript, React, testing, authentication, UX design, Figma,
+                  prototyping, and more. I have also worked on implementing REST
+                  APIs, developing responsive and accessibility-focused
+                  projects, and using content management systems like WordPress.
+                  Additionally, I am well-versed in Git and GitHub.
+                  <br /><br />
+                  I am passionate about creating intuitive and aesthetically
+                  pleasing user experiences and am always looking for new ways
+                  to improve my skills.
+                </p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="skills-box">
+                <div class="skills-header">
+                  <h3>Frontend tools and languages</h3>
+                </div>
+                <div class="skills-list">
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>Bootstrap and Bulma - CSS framework</span>
+                  <span>JavaScript</span>
+                  <span>React</span>
+                  <span>Vite</span>
+                  <span>CMS, Wordpress</span>
+                  <span>REST API</span>
+                  <span>Unit tests and e2e testing</span>
+                  <span>Responsive web design</span>
+                  <span>Figma</span>
+                  <span>UX design - Figma prototyping</span>
+                  <span>Daily standup's, Scrum and kanban</span>
+                  <span>Cypress</span>
+                  <span>Git - command line</span>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="skills-box">
+                <div class="skills-header">
+                  <h3 lang="en-GB">Other skills</h3>
+                </div>
+                <div class="skills-list">
+                  <span>Adobe Photoshop</span>
+                  <span>Adobe Premiere</span>
+                  <span>Adobe inDesign</span>
+                  <span>Adobe Illustrator</span>
+                  <span>Microsoft office</span>
+                  <span>Salesforce</span>
+                  <span
+                    >I can use the Norwegian and English language verbally and
+                    written in a professional manner</span
+                  >
+                  <span>Social, Creative and Impulsive</span>
+                  <span>Fast learner</span>
+                  <span
+                    >Work equally well both independently and with a team</span
+                  >
+                  <span>Caring, Love to help out </span>
+                  <span>Organized</span>
+                  <span
+                    >Firm believer in ''There are no stupid questions''</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section" id="projects">
+          <div class="top-header">
+            <h1 lang="en-GB">Projects</h1>
+          </div>
+          <div class="project-container">
+            <!-- Project Card 1 -->
+            <div class="project-box">
+              <img
+                src="/assets/images/HolidazeScreenshot.png"
+                alt="Project Exam 2 Screenshot"
+                class="project-img"
+              />
+              <div class="project-info">
+                <h3>Exam delivery - Holidaze</h3>
+                <p>
+                  This final project involved creating a full-featured web
+                  application from scratch, demonstrating mastery of front-end
+                  development skills learned throughout the course.
+                </p>
+                <div class="project-links">
+                  <a
+                    href="https://melsom-dev-holidaze.netlify.app/"
+                    class="project-link"
+                    target="_blank"
+                    >GitHub Repo</a
+                  >
+                  <a
+                    href="https://6653af49c52172d43cce1d71--stately-cuchufli-699834.netlify.app/"
+                    class="project-link"
+                    target="_blank"
+                    >Website</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <!-- Project Card 2 -->
+            <div class="project-box">
+              <img
+                src="/assets/images/ShopIt.png"
+                alt="JavaScript Frameworks CA Screenshot"
+                class="project-img"
+              />
+              <div class="project-info">
+                <h3>React - SHOPit Ecom</h3>
+                <p>
+                  This assignment focused on using React to create a simple and
+                  dynamic, interactive web application, highlighting the use of
+                  modern JavaScript frameworks.
+                </p>
+                <div class="project-links">
+                  <a
+                    href="https://github.com/JeanettKM/React_Assignment_Copy"
+                    class="project-link"
+                    target="_blank"
+                    >GitHub Repo</a
+                  >
+                  <a
+                    href="https://react-assignment-jkm.netlify.app/"
+                    class="project-link"
+                    title="SHOPit - Ecom"
+                    >Website</a
+                  >
+                </div>
+              </div>
+            </div>
+            <!-- Project Card 3 -->
+            <div class="project-box">
+              <img
+                src="/assets/images/SemesterProject2Screenshot.png"
+                alt="Semester Project 2 Screenshot"
+                class="project-img"
+              />
+              <div class="project-info">
+                <h3>Semester Project</h3>
+                <p>
+                  This project involved creating a comprehensive web application
+                  with a focus on responsive design, accessibility, and modern
+                  front-end technologies.
+                </p>
+                <div>
+                  <p class="unavailable-text">
+                    This project is outdated and will be unavailable while I
+                    update it.
+                  </p>
+                </div>
+                <div class="project-links">
+                  <a
+                    href="https://github.com/JeanettKM/Semester_Project_2_JKM"
+                    class="project-link"
+                    target="_blank"
+                    >GitHub Repo</a
+                  >
+                  <a
+                    href="https://semesterproject2jkm.netlify.app/"
+                    class="disabled-link"
+                    target="_blank"
+                    >Website</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section" id="contact">
+          <div class="top-header">
+            <h1 lang="en-GB">Get in touch</h1>
+            <span>Do you have any questions, contact me</span>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="contact-info">
+                <h2 lang="en-GB">
+                  Find Me <i class="uil uil-corner-right-down"></i>
+                </h2>
+                <p lang="en-GB">
+                  <i class="uil uil-envelope"></i> Email: Jeanettk.m@hotmail.com
+                </p>
+                <p lang="en-GB">
+                  <i class="uil uil-phone"></i> Tel: +4796006006
+                </p>
+                <p lang="en-GB">
+                  <i class="uil uil-map-marker-alt"></i> Location: Trondheim,
+                  Norway
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer>
+        <div class="top-footer">
+          <p lang="en-GB">Jeanett K. Melsom</p>
+        </div>
+        <div class="middle-footer">
+          <ul class="footer-menu">
+            <li lang="en-GB" class="footer_menu_list">
+              <a href="#home">Home</a>
+            </li>
+            <li lang="en-GB" class="footer_menu_list">
+              <a href="#about">About</a>
+            </li>
+            <li lang="en-GB" class="footer_menu_list">
+              <a href="#projects">Experience</a>
+            </li>
+            <li lang="en-GB" class="footer_menu_list">
+              <a href="#contact">Contact</a>
+            </li>
+            <li lang="en-GB" class="footer_menu_list">
+              <a href="index.html" class="nav-link"
+                ><img
+                  lang="en-GB"
+                  class="language_logo_footer"
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAACmklEQVR4nO2Zz2sTQRTHv7RWwaM/Thb/AHurKJHOZA+KlDbYeggpevVi0aNoBT3WQosgbUml9OCtaMWKppd6kOLBQwWFiDdBrSZosqaoNKmaJzNsagiNO5v9kYnsg+913vezu/Pm7RsgjDDCcB23ei/umugfPn+9f2R5ODb+qfD8yQ/z9YtfxLFpySSONDHcJ4ar1IMIAW1odny/eal7fXHuWd/g3d/G6RRVlPu6LkUc9cXwgRhukIHOwI0Tw37iuJ3PZqXRavPKAH9VIoYkGdgXjPkozhBHXiSvGHUJQNYbyRHDkH/GD6ODGGark3oKwLdAZkQur83vJo6l2mS+AHAJkRI5vTLfsZ15XwG41DIdwk73ADWfTYAAJDa3O/McZ/+VwHcALpVozPxx7CWGLxoA5BsqsaLO2y0eEAARx7Qz8wY65QGjD0CJenDQydMfU1k4QAASbYeaeaBN9im6AXCsURzt9gBRHFNdNGAAIo6j9gCi3dUX4IotQGEl9bFiQFX1ALxWYWVpzRbATK9u6Apgplc3bAFiA/PlWkO6KDYwX7YFODH4sOlGjToS3v5/gFirf0Jmq2/iQquXUdL5IGO4bA8ghk66AkRxRLWZe68hwDvlaZ6cmOkGwDCqZF7LHxqGIkVwQBnAegtJjQAmHZmXABHs0eKnniHX8NxUzCo1AIg3ZL4KYqZpAAxTrsxLgDjaieNB4AAMj8nADtcAW8NdMXANDuCRZ8PdmvF60ncAhinPnvy2IByJSnXyGOCz6w3raG7KMZ3PZtwDMBRFnRdlG0FHaexc17eF5NOhU3M/HQOIfoth1PEJ60eIJuvOyURiovfC4kjftbfmm5fFXCZTttqRknWn9oo47omWWHSVWlyzhhEGWj/+APDp7ow1t656AAAAAElFTkSuQmCC"
+                  alt="Icon of the Norwegian flag, click to view the page in Norwegian"
+              /></a>
+            </li>
+          </ul>
+        </div>
+        <div class="bottom-footer">
+          <p lang="en-GB">
+            Copyright &copy;
+            <a href="#home" style="text-decoration: none">Jeanett K. Melsom</a>
+            - All rights reserved
+          </p>
+        </div>
+      </footer>
+    </div>
+    <!------- TYPING ANIMATION JS Link ------->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!------- SCROLL REVEAL JS Link ------->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!------- MAIN JS ------->
+    <script src="assets/js/main_ENG.js"></script>
+  </body>
+</html>
+
