@@ -12,6 +12,7 @@ function myMenuFunction() {
 /*----- ADD SHADOW ON NAVIGATION BAR WHILE SCROLLING -----*/
 window.onscroll = function () {
   headerShadow();
+  scrollActive();
 };
 
 function headerShadow() {
@@ -39,6 +40,7 @@ var typingEffect = new Typed(".typedText", {
 });
 
 /*------- SCROLL REVEAL ANIMATION -------*/
+<<<<<<< Updated upstream
 const sr = ScrollReveal({
   origin: "top",
   distance: "80px",
