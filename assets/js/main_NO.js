@@ -40,15 +40,9 @@ var typingEffect = new Typed(".typedText", {
 
 /* ------- SCROLL REVEAL ANIMATION ------- */
 const sr = ScrollReveal({
-<<<<<<< Updated upstream
   origin: "top",
-  distance: "80px",
-  duration: 2000,
-=======
-  origin: "left",
   distance: "20px",
-  duration: 800,
->>>>>>> Stashed changes
+  duration: 1000,
   reset: true,
 });
 
@@ -68,15 +62,9 @@ sr.reveal(".top-header", {});
 
 /* -- ABOUT INFO & CONTACT INFO -- */
 const srLeft = ScrollReveal({
-<<<<<<< Updated upstream
   origin: "left",
   distance: "80px",
-  duration: 2000,
-=======
-  origin: "top",
-  distance: "80px",
   duration: 1000,
->>>>>>> Stashed changes
   reset: true,
 });
 
@@ -87,7 +75,7 @@ srLeft.reveal(".contact-info", { delay: 100 });
 const srRight = ScrollReveal({
   origin: "right",
   distance: "80px",
-  duration: 2000,
+  duration: 1000,
   reset: true,
 });
 
