@@ -1007,13 +1007,13 @@ footer {
   }
 
   .full-height-image {
-    position: absolute;
+    position: relative;
     top: 0;
-    right: -150px;
+    right: 70px;
     height: 50vh;
     width: 100%;
     display: flex;
-    justify-content: flex-end;
+    justify-content: left;
     align-items: flex-end;
     z-index: -1;
     overflow: hidden;
@@ -1325,9 +1325,10 @@ footer {
   }
   .full-height-image {
     position: absolute;
-    top: 40px;
-    right: 0;
-    height: 25vh;
+    top: 50px;
+    right: 0px;
+    max-height: 30vh;
+    min-height: 25vh;
     width: 100%;
     display: flex;
     justify-content: flex-end;
@@ -1338,6 +1339,45 @@ footer {
 
   .featured-box {
     height: 60vh;
+  }
+}
+
+/* ----- MEDIA QUERY == Iphone SE  normal / RESPONSIVE ----- */
+@media only screen and (max-width: 750px) and (max-height: 400px) () {
+}
+
+/* ----- MEDIA QUERY == Iphone SE  Landscape / RESPONSIVE ----- */
+@media only screen and (max-width: 670px) and (max-height: 375px) {
+  .full-height-image {
+    position: absolute;
+    top: 50px;
+    right: 0px;
+    height: 60vh;
+    max-height: 60vh;
+    min-height: 60vh;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: -1;
+    overflow: hidden;
+  }
+}
+
+/* ----- MEDIA QUERY == 540px / S screens - mobile / RESPONSIVE ----- */
+@media only screen and (max-width: 750px) {
+  .full-height-image {
+    position: absolute;
+    top: 50px;
+    right: 0px;
+    max-height: 40vh;
+    min-height: 40vh;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: -1;
+    overflow: hidden;
   }
 }
 
@@ -1474,9 +1514,10 @@ footer {
 
   .full-height-image {
     position: absolute;
-    top: -25px;
+    top: -35px;
     right: 0px;
-    height: 25vh;
+    min-height: 20vh;
+    max-height: 20vh;
     width: 100%;
     display: flex;
     justify-content: flex-end;
@@ -1484,7 +1525,6 @@ footer {
     z-index: -1;
     overflow: hidden;
   }
-
   .typedText {
     font-size: 30px;
   }
@@ -1671,4 +1711,75 @@ footer {
 .unavailable-text {
   color: #ccc;
   font: 10px;
+}
+
+/* ----- MEDIA QUERY == Iphone SE  normal / RESPONSIVE ----- */
+@media only screen and (max-width: 67px0) and (max-height: 375px) {
+  .full-height-image {
+    position: absolute;
+    top: -35px;
+    right: 0px;
+    min-height: 20vh;
+    max-height: 20vh;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: -1;
+    overflow: hidden;
+  }
+}
+
+/* ----- MEDIA QUERY == Iphone XR  Landscape / RESPONSIVE ----- */
+@media only screen and (max-width: 940px) and (max-height: 450px) {
+  .full-height-image {
+    position: absolute;
+    top: 50px;
+    right: 0px;
+    height: 60vh;
+    max-height: 60vh;
+    min-height: 60vh;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: -1;
+    overflow: hidden;
+  }
+}
+
+/* ----- MEDIA QUERY == Iphone XR  Landscape / RESPONSIVE ----- */
+@media only screen and (max-width: 900px) and (max-height: 414px) {
+  .full-height-image {
+    position: absolute;
+    top: 50px;
+    right: 0px;
+    height: 60vh;
+    max-height: 60vh;
+    min-height: 60vh;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: -1;
+    overflow: hidden;
+  }
+}
+
+/* ----- MEDIA QUERY == Iphone SE  Landscape / RESPONSIVE ----- */
+@media only screen and (max-width: 670px) and (max-height: 375px) {
+  .full-height-image {
+    position: absolute;
+    top: 50px;
+    right: 0px;
+    height: 60vh;
+    max-height: 60vh;
+    min-height: 60vh;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: -1;
+    overflow: hidden;
+  }
 }
