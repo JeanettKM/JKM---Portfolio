@@ -205,6 +205,7 @@ a {
     position: relative;
   }
 
+
   .language_logo {
     height: 35px;
     margin-top: 25px;
@@ -309,6 +310,7 @@ a {
     height: 100%;
     min-height: 700px;
     margin-top: 40px;
+    flex-direction: row-reverse;
   }
 
   /* ----- FEATURED TEXT BOX ----- */
@@ -892,6 +894,7 @@ a {
       z-index: 1;
       pointer-events: none;
     }
+    
   }
 
   /* ----- MEDIA QUERY == 1450px / XL screens - PC monitors / RESPONSIVE ----- */
@@ -944,6 +947,9 @@ a {
       margin: 0px;
       padding-left: 0px;
       padding-right: 0px;
+    }
+    .featured-background {
+      background: #fff2f2;
     }
 
     .featured-text {
