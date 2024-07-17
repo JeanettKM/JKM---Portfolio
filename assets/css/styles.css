@@ -355,7 +355,7 @@ a {
   .featured-text-info {
     font-size: 16.5px;
     margin-bottom: 30px;
-    margin-top: 30px;
+    margin-top: 20px
     color: var (--text-color-third);
     font-weight: 300;
   }
@@ -812,7 +812,7 @@ a {
       display: flex;
       flex-direction: row;
       width: 55%;
-      gap: 150px;
+      gap: 100px;
       align-items: center;
       justify-content: space-evenly;
       margin: auto;
