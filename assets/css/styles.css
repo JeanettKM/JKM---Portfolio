@@ -70,10 +70,10 @@ html {
   display: flex;
   flex-direction: row;
   width: 55%;
-  gap: 150px;
-  align-items: center;
+  gap: 100px;
   justify-content: space-evenly;
   margin: auto;
+  flex-wrap: nowrap;
 }
 
 /* ----- CHANGE THE SCROLL BAR DESIGN ----- */
@@ -928,12 +928,12 @@ a {
     .skillsContainer {
       display: flex;
       flex-direction: row;
-      width: 85%;
-      gap: 150px;
-      align-items: center;
+      width: 55%;
+      gap: 100px;
       justify-content: space-evenly;
       margin: auto;
-    }
+      flex-wrap: nowrap;
+  }
 
     .about-info p {
       min-width: 70%;
@@ -1022,9 +1022,10 @@ a {
     }
 
     .skillsContainer {
-      width: 70%;
-    }
-
+      width: 60%;
+      flex-wrap: wrap;
+      gap: 50px;
+  }
     .about-info p {
       width: 70%;
     }
