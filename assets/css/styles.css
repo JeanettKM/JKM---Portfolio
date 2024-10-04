@@ -1641,3 +1641,41 @@ footer {
   color: #ccc;
   font: 10px;
 }
+
+/* ----- Flex Grow Effect Test ----- */
+
+.project-container {
+  display: flex;
+  gap: 1rem;
+  max-width: 1200px; /* Limit container width */
+  width: 80%; /* Adjust width for responsiveness */
+  margin: 0 auto; /* Center the container */
+  justify-content: center; /* Center the content */
+  flex-wrap: wrap; /* Ensure responsiveness on smaller screens */
+}
+
+.project-box {
+  flex: 2;
+  transition: flex 0.3s ease; /* Smooth transition on hover */
+  cursor: pointer;
+  min-width: 300px; /* Ensure a minimum width */
+  max-width: 100%; /* Prevent overflowing */
+}
+
+.project-box:hover {
+  flex: 3; /* Make the hovered box grow */
+}
+
+.project-img {
+  max-width: 100%;
+  height: auto; /* Ensure the image is responsive */
+}
+
+.project-info {
+  width: 100%; /* Ensure the info section has full width */
+}
+
+section#projects {
+  text-align: center; /* Center the header */
+  padding: 2rem 0; /* Add padding for better spacing */
+}
