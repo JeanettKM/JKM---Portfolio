@@ -36,6 +36,8 @@ var typingEffect = new Typed(".typedText", {
   typeSpeed: 80,
   backSpeed: 80,
   backDelay: 2000,
+  showCursor: true, // Shows the blinking cursor (true by default)
+  cursorChar: "|", // Customize the cursor character (default is "|")
 });
 
 /*------- SCROLL REVEAL ANIMATION -------*/

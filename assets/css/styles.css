@@ -308,7 +308,7 @@ nav {
   display: flex;
   height: 100%;
   min-height: 700px;
-  margin-top: 40px;
+  margin-top: 30px;
   flex-direction: row-reverse;
 }
 
@@ -320,7 +320,7 @@ nav {
   align-content: center;
   flex-direction: column;
   width: 57%;
-  padding-left: 20px;
+
   margin-top: 50px;
 }
 .featured-text-card span {
@@ -335,12 +335,15 @@ nav {
   font-weight: 600;
   color: var(--text-color-third);
   margin-block: 20px;
+  position: absolute;
+  left: 2%;
+  top: 5%;
 }
 .typedText {
   text-transform: capitalize;
   color: var(--text-color-second);
   font-family: "Noto Serif Display";
-  font-size: 50px;
+  font-size: 48px;
   font-weight: 300;
 }
 
@@ -793,10 +796,10 @@ footer {
 /* ----- MEDIA QUERY == 1025px and above / L screens - PC monitors ----- */
 @media only screen and (min-width: 1025px) {
   .featured-text {
-    padding-left: 40px;
-    padding-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
     margin: 0px;
-    width: 80%;
+    width: 90%;
     right: 0px;
     background: rgb(255, 243, 244);
     background: linear-gradient(
@@ -810,6 +813,7 @@ footer {
     height: 100vh;
     justify-content: flex-start;
     padding-top: 30px;
+    padding-left: 40px;
   }
 
   .skillsContainer {
@@ -860,7 +864,7 @@ footer {
     width: 100%;
   }
   .featured-text {
-    padding-left: 40px;
+    padding-left: 10px;
     padding-right: 10px;
     right: 0px;
     margin: 0px;
@@ -904,10 +908,12 @@ footer {
 /* ----- MEDIA QUERY == 1450px / XL screens - PC monitors / RESPONSIVE ----- */
 @media only screen and (max-width: 1450px) {
   .featured-text {
-    padding-left: 40px;
-    padding-right: 10px;
+    display: grid;
+    place-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
     margin: 0px;
-    width: 80%;
+    width: 90%;
     right: 0px;
     background: rgb(255, 243, 244);
     background: linear-gradient(
@@ -948,6 +954,10 @@ footer {
 
   .about-info p {
     min-width: 70%;
+  }
+
+  .S-Screen-text {
+    margin-top: 8vh;
   }
 }
 
@@ -1066,6 +1076,9 @@ footer {
     justify-content: center;
     text-align: center;
     padding-top: 30px;
+    position: relative;
+    left: 0%;
+    top: 20px;
   }
 
   .featured-text-info {
@@ -1124,6 +1137,7 @@ footer {
   .featured-text {
     width: 100%;
     order: 2;
+    display: flex;
     justify-content: flex-start;
     align-content: flex-start;
     padding: 0px;
