@@ -902,6 +902,13 @@ footer {
   }
 }
 
+/* ----- MEDIA QUERY == 1200px / XL screens - PC monitors / RESPONSIVE ----- */
+@media only screen and (max-width: 1200px) {
+  .featured-text {
+    width: 20vw;
+  }
+}
+
 /* ----- MEDIA QUERY == 1450px / XL screens - PC monitors / RESPONSIVE ----- */
 @media only screen and (max-width: 1450px) {
   .featured-text {
@@ -955,13 +962,16 @@ footer {
 
   .S-Screen-text {
     position: absolute;
-    top: 13%;
-    left: 3%;
+    padding-top: 160px;
+  }
+
+  .featured-text-info {
+    padding-left: 20px;
   }
 }
 
-/* ----- MEDIA QUERY == 950px / M screens - Tablets / RESPONSIVE ----- */
-@media only screen and (max-width: 950px) {
+/* ----- MEDIA QUERY == 970px / M screens - Tablets / RESPONSIVE ----- */
+@media only screen and (max-width: 970px) {
   .wrapper,
   .featured-text {
     margin: 0px;
