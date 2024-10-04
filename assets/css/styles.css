@@ -791,12 +791,18 @@ footer {
 }
 
 /* ----- MEDIA QUERY == 1025px and above / L screens - PC monitors ----- */
+@media only screen and (min-width: 1200px) {
+  .featured-text {
+    width: 35vw;
+  }
+}
+
+/* ----- MEDIA QUERY == 1025px and above / L screens - PC monitors ----- */
 @media only screen and (min-width: 1025px) {
   .featured-text {
     padding-left: 20px;
     padding-right: 20px;
     margin: 0px;
-    width: 90%;
     right: 0px;
     background: rgb(255, 243, 244);
     background: linear-gradient(
@@ -866,7 +872,7 @@ footer {
     right: 0px;
     margin: 0px;
     position: relative;
-    width: 70%;
+    width: 45vw;
     background: rgb(255, 243, 244);
     background: linear-gradient(
       180deg,
