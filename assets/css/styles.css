@@ -335,9 +335,6 @@ nav {
   font-weight: 600;
   color: var(--text-color-third);
   margin-block: 20px;
-  position: absolute;
-  left: 2%;
-  top: 5%;
 }
 .typedText {
   text-transform: capitalize;
@@ -909,7 +906,7 @@ footer {
 @media only screen and (max-width: 1450px) {
   .featured-text {
     display: grid;
-    place-content: center;
+    place-content: baseline;
     padding-left: 20px;
     padding-right: 20px;
     margin: 0px;
@@ -957,7 +954,9 @@ footer {
   }
 
   .S-Screen-text {
-    margin-top: 8vh;
+    position: absolute;
+    top: 13%;
+    left: 2%;
   }
 }
 
@@ -1068,6 +1067,9 @@ footer {
     width: 100%;
     margin: 0px;
     padding-top: 20px;
+    position: absolute;
+    top: 13%;
+    left: 2%;
   }
 
   .featured-name {
