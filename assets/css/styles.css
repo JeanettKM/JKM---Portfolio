@@ -1356,10 +1356,6 @@ footer {
     gap: 50px;
   }
 
-  .section {
-    padding-block: 5em;
-  }
-
   #contact h1 {
     margin-bottom: 20px;
     margin-top: 50px;
@@ -1568,10 +1564,6 @@ footer {
     font-size: 15px;
     display: flex;
     justify-content: center;
-  }
-
-  .section {
-    padding-block: 1em;
   }
 }
 
