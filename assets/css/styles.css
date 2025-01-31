@@ -146,7 +146,7 @@ nav {
   background: rgb(230, 207, 210);
   background: linear-gradient(
     180deg,
-    rgba(230, 207, 210, 0.42619054457720584) 74%,
+    rgba(230, 207, 210, 0.42619054457720584) 94%,
     rgba(230, 207, 210, 1) 91%,
     rgba(232, 209, 212, 1) 100%
   );
@@ -754,6 +754,7 @@ footer {
 }
 .middle-footer .footer-menu {
   display: flex;
+  align-items: center;
 }
 .footer_menu_list {
   list-style: none;
@@ -1052,8 +1053,9 @@ footer {
     display: flex;
     height: 100%;
     min-height: 700px;
+    margin-top: 0px;
   }
-
+  
   .contact-info {
     position: relative;
     display: flex;
@@ -1067,6 +1069,7 @@ footer {
     box-shadow: 1px 8px 10px 2px var(--first-shadow-color);
     overflow: hidden;
     margin: auto;
+    width: 95%;
   }
 
   #contact .row {
@@ -1151,7 +1154,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: rgba(255, 255, 255, 0.963);
+    background: rgb(255 255 255 / 90%);
     backdrop-filter: blur(20px);
     width: 100%;
     min-height: 450px;
@@ -1325,13 +1328,18 @@ footer {
     width: 100%;
     position: relative;
   }
+
+  .footer_menu_list a {
+    margin-inline: 13px;
+    font-size: 16px;
+  }
 }
 
 /* ----- MEDIA QUERY == 540px / S screens - mobile / RESPONSIVE ----- */
 @media only screen and (max-width: 340px) {
   .footer_menu_list a {
     margin-inline: 13px;
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .full-height-image {
@@ -1526,7 +1534,7 @@ footer {
 
   .footer_menu_list a {
     margin-inline: 8px;
-    font-size: 13px;
+    font-size: 14px;
   }
 
   footer {
@@ -1567,6 +1575,10 @@ footer {
     display: flex;
     justify-content: center;
   }
+
+  .middle-footer .footer-menu {
+    padding-left: 15px;
+    }
 }
 
 .featured-image {
@@ -1618,7 +1630,7 @@ footer {
 
 .footer_menu_list a {
   margin-inline: 13px;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .bottom-footer p {
@@ -1706,4 +1718,26 @@ footer {
 section#projects {
   text-align: center; /* Center the header */
   padding: 2rem 0; /* Add padding for better spacing */
+}
+
+
+@media only screen and (max-width: 380px) {
+  .featured-name {
+    top: 0px;
+  }
+
+  .middle-footer .footer-menu {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+    font-size: 20px;
+    align-items: center;
+}
+
+.bottom-footer p {
+  font-size: 13px;
+  text-align: center;
+}
+
 }
