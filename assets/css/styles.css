@@ -979,27 +979,18 @@ footer {
     padding-left: 0px;
     padding-right: 0px;
   }
-  .featured-background {
-    background: #fff2f2;
-  }
 
   .featured-text {
     width: 100%;
     order: 2;
+    display: flex;
     justify-content: flex-start;
     align-content: flex-start;
     padding: 0px;
     right: 0;
-    background: rgb(249, 232, 235);
-    background: linear-gradient(
-      180deg,
-      rgb(249 232 235 / 0%) 0%,
-      rgb(249 232 235 / 15%) 27%,
-      rgb(243 225 227) 55%,
-      rgb(238 219 221) 83%,
-      rgb(238 219 221) 100%
-    );
+    min-width: fit-content;
   }
+
 
   .full-height-image {
     position: relative;
@@ -1147,25 +1138,6 @@ footer {
     justify-content: center;
   }
 
-  .featured-text {
-    width: 100%;
-    order: 2;
-    display: flex;
-    justify-content: flex-start;
-    align-content: flex-start;
-    padding: 0px;
-
-    right: 0;
-    background: rgb(249, 232, 235);
-    background: linear-gradient(
-      180deg,
-      rgb(249 232 235 / 0%) 0%,
-      rgb(249 232 235 / 15%) 27%,
-      rgb(243 225 227) 55%,
-      rgb(238 219 221) 83%,
-      rgb(238 219 221) 100%
-    );
-  }
   .featured-text-btn {
     display: flex;
     gap: 10px;
@@ -1448,6 +1420,7 @@ footer {
     padding-right: 0px;
     position: relative;
     min-width: 200px;
+    background: none;
   }
 
   .full-height-image {
